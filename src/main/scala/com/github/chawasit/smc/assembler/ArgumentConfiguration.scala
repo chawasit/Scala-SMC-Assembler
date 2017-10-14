@@ -13,4 +13,5 @@ class ArgumentConfiguration(arguments: Seq[String])
 
   printedName = "Assembler"
   verify()
+
 }

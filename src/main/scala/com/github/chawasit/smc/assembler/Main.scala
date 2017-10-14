@@ -34,5 +34,4 @@ object Main extends App {
       .getLines()
       .toList
 
-
 }

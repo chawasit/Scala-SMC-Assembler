@@ -9,9 +9,8 @@ class ArgumentConfiguration(arguments: Seq[String])
   val output: ScallopOption[String] = trailArg[String](descr = "path to save machine code",
     default = Option[String]("output.txt"), required = false)
 
-  val verbose: ScallopOption[Boolean] = opt[Boolean](required = false, default = Option(true))
-
   printedName = "Assembler"
+
   verify()
 
 }
